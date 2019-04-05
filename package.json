@@ -1,0 +1,38 @@
+{
+  "name": "gts-308",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "webpack --mode production",
+    "check": "gts check",
+    "clean": "gts clean",
+    "compile": "tsc -p .",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akoidan/gts-308"
+  },
+  "author": "Andrew Koidan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/google/gts/issues/308"
+  },
+  "homepage": "https://github.com/google/gts/issues/308",
+  "dependencies": {
+    "vue": "*"
+  },
+  "devDependencies": {
+    "gts": "^0.9.0",
+    "ts-loader": "*",
+    "typescript": "~3.1.0",
+    "vue-loader": "*",
+    "vue-template-compiler": "*",
+    "vue-tslint-loader": "^3.5.6",
+    "webpack": "*",
+    "webpack-cli": "^3.3.0"
+  }
+}
