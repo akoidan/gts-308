@@ -9,7 +9,7 @@
   import Vue from "vue";
 
   export default Vue.extend({
-    props: ['name', "initialEnthusiasm"],
+    props: ['name', "initialEnthusiasm"], // TODO This doesn't work
     data() {
       return {
         enthusiasm: this.initialEnthusiasm,
